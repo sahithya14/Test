@@ -1,10 +1,13 @@
 import React from "react";
 import "./styles.css";
+import Layout from "./components/Layout/Layout";
 
 export default function App() {
   return (
-    <div className="App">
-      <h1>Let's start</h1>
+    <div>
+      <Layout>
+        <div>Test</div>
+      </Layout>
     </div>
   );
 }

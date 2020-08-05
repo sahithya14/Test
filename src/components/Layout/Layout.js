@@ -5,7 +5,7 @@ const layout = props => {
   return (
     <Aux>
       <div> tools bar</div>
-      <main>{props.children}</main>;
+      <main>{props.children}</main>
     </Aux>
   );
 };
